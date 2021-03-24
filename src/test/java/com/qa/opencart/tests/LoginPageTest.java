@@ -34,7 +34,7 @@ public class LoginPageTest extends BaseTest {
 	}
 	
 	@Description("Login test with correct credentials")
-	@Severity(SeverityLevel.BLOCKER)
+	@Severity(SeverityLevel.CRITICAL)
 	@Test(priority = 3)
 	public void loginTest() {
 		accPage = loginPage.doLogin(prop.getProperty("username"), prop.getProperty("password"));
